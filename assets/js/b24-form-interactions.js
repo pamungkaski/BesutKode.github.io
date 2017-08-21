@@ -13,6 +13,10 @@ var onFormLoadInteractions = {
       formElement.style.display = "none";
       bdy.style.overflow = "scroll";
     }
+    var b24Iframe = document.getElementById('bx_form_iframe_8');
+    b24Iframe.scrolling = 'yes';
+    b24Iframe.style.height = '400vh'
+    // console.log(b24Iframe);
   }
 };
 $( document ).ready(function() {
